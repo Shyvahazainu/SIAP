@@ -21,6 +21,8 @@
             <input type="text" class="input-nip" id="nip" placeholder="NIP">
             <input type="password" class="input-pass" id="password" placeholder="Password">
 
+            <input type="submit" value="Masuk" id="login-msk" class="login-msk">
+
         </div>
     </div>
 </body>

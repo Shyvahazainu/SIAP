@@ -1,3 +1,24 @@
 buat branch
 - git checkout -b nama_branch
 
+D:\sem7\SIAP>git branch
+  Main
+* login
+
+D:\sem7\SIAP>git commit -m "login"
+[login 0493a24] login
+ 1 file changed, 3 insertions(+)
+ create mode 100644 git_code.txt
+
+D:\sem7\SIAP>git push -u origin login
+Enumerating objects: 122, done.
+Counting objects: 100% (122/122), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (102/102), done.
+Writing objects: 100% (122/122), 651.94 KiB | 4.66 MiB/s, done.
+Total 122 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/Shyvahazainu/SIAP.git
+ * [new branch]      login -> login
+branch 'login' set up to track 'origin/login'.
+

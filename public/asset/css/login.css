@@ -60,7 +60,6 @@ body {
 }
 
 input {
-    background-color: transparent;
     border-radius: 10px;
     border: 3px solid var(--merah, #600e00);
     width: 240px;
@@ -68,6 +67,7 @@ input {
     margin-bottom: 12px;
 }
 .input-nip {
+    background-color: transparent;
     padding-left: 40px;
     background-repeat: no-repeat;
     background-position: 12px center; /* Adjust the position of the image */
@@ -76,9 +76,15 @@ input {
 }
 
 .input-pass {
+    background-color: transparent;
     padding-left: 40px;
     background-repeat: no-repeat;
     background-position: 12px center; /* Adjust the position of the image */
     background-size: 20px;
     background-image: url("../img/login-password.png");
+}
+
+.login-msk {
+    background-color: #600e00;
+    width: 288px;
 }
